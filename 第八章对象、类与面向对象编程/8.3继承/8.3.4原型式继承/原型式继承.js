@@ -11,4 +11,10 @@ let person = {
 
 let anotherPerson = object(person);
 anotherPerson.name = "Greg";
-anotherPerson.friends.push("Rob")
+anotherPerson.friends.push("Rob");
+
+let yetAnotherPerson = object(person);
+yetAnotherPerson.name = "Linda";
+yetAnotherPerson.friends.push("Barbie");
+
+console.log(person.friends);
